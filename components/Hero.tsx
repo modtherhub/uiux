@@ -2,6 +2,7 @@ import React from 'react'
 import { Spotlight } from './ui/Spotlight'
 import { GridBackgroundDemo } from './ui/GridBackgroundDemo'
 import { TextGenerateEffect } from './ui/text-generate-effect'
+import Magicbutton from './ui/Magicbutton'
 
 const Hero = () => {
   return (
@@ -27,7 +28,8 @@ const Hero = () => {
             <div className='flex justify-center relative
             my-20 z-10'>
                 <div className='max-w-[89vw] md:max-w-2xl 
-                lg:max-w-[60vw] flex flex-col justify-center'>
+                lg:max-w-[60vw] flex flex-col justify-center 
+                text-center items-center'>
 
                     <h1 className='uppercase tracking-widest 
                     text-xs text-center text-blue-100 
@@ -45,6 +47,11 @@ const Hero = () => {
                     text-sm md:text-lg lg:text-2xl'>
                         Hi, I'm Modther a Next.js Developer
                     </p>
+
+                    <a href="#about">
+                        <Magicbutton
+                        title='Show my work'/>
+                    </a>
 
             
                 </div>
