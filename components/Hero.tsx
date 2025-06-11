@@ -40,7 +40,9 @@ const Hero = () => {
                     lg:text-6xl md:text-5xl'
                     words='Transforming Concepts into Seamless Experiencess '/>
 
-                    <p className='text-center md:tracking-wider mt-4 text-sm md:text-lg lg:text-2xl'>
+                    <p className='text-blue-100 
+                    text-center md:tracking-wider mt-4 
+                    text-sm md:text-lg lg:text-2xl'>
                         Hi, I'm Modther a Next.js Developer
                     </p>
 
