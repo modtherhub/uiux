@@ -1,6 +1,7 @@
 import React from 'react'
 import { Spotlight } from './ui/Spotlight'
 import { GridBackgroundDemo } from './ui/GridBackgroundDemo'
+import { TextGenerateEffect } from './ui/text-generate-effect'
 
 const Hero = () => {
   return (
@@ -20,8 +21,33 @@ const Hero = () => {
                 className='top-28 left-80 h-[80vh] w-[50vw]
                 md:-top-20 ' fill='blue'/>
             </div>
+
             <GridBackgroundDemo/>
 
+            <div className='flex justify-center relative
+            my-20 z-10'>
+                <div className='max-w-[89vw] md:max-w-2xl 
+                lg:max-w-[60vw] flex flex-col justify-center'>
+
+                    <h1 className='uppercase tracking-widest 
+                    text-xs text-center text-blue-100 
+                    max-w-80'>
+                        Dynamic Wep app with Next.js
+                    </h1>
+
+                    <TextGenerateEffect 
+                    className='text-center text-[40px] 
+                    lg:text-6xl md:text-5xl'
+                    words='Transforming Concepts into Seamless Experiencess '/>
+
+                    <p className='text-center md:tracking-wider mt-4 text-sm md:text-lg lg:text-2xl'>
+                        Hi, I'm Modther a Next.js Developer
+                    </p>
+
+            
+                </div>
+            </div>
+            
         </div>
     
   )
